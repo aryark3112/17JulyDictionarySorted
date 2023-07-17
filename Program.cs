@@ -32,34 +32,27 @@ namespace _17JulyCollections
             //}
             //Console.ReadKey();
 
-            List<string> listNames = new List<string>()
-            { "Sam", "Ravi", "Amit"};
-            Console.WriteLine("***Name List ***");
-            foreach (var item in listNames)
-            {
-                Console.WriteLine(item);
-            }
-            listNames.Add("Renu");
-            Console.WriteLine("*** Name List after adding one more item ***");
-            foreach(var item in listNames)
-            {
-                Console.WriteLine(item);
-            }
-            List<int> listNumbers = new List<int>()
-            { 12,23,45,56};
-            Console.WriteLine("*** Number List ***");
-            foreach (var item in listNumbers)
+            //Generic Collection List Example
 
+            //Dictionary Example
+            Dictionary<int, string> students = new Dictionary<int, string>()
             {
-                Console.WriteLine(item);
-
+                {15, "Sam" },
+                {12, "Amit" },
+                {53, "Raj" }
+            };
+            Console.WriteLine("Number of students are:"+students.Count);
+            Console.WriteLine("Roll \t Name");
+            foreach(var k in students.Keys)
+            {
+                Console.WriteLine(k+ "\t" + students[k]);
             }
-            listNumbers.Add(145);
-            Console.WriteLine("*** Number List after adding 145 ***");
-            foreach(var item in listNumbers)
+            students.Add(32, "Deep");
+            Console.WriteLine("Updated Students List");
+            Console.WriteLine("Roll \t Name");
+            foreach (var k in students.Keys)
             {
-                Console.WriteLine(item);
-
+                Console.WriteLine(k + "\t" + students[k]);
             }
             Console.ReadKey();
         }
