@@ -35,17 +35,40 @@ namespace _17JulyCollections
             //Generic Collection List Example
 
             //Dictionary Example
-            Dictionary<int, string> students = new Dictionary<int, string>()
+            //Dictionary<int, string> students = new Dictionary<int, string>()
+            //{
+            //    {15, "Sam" },
+            //    {12, "Amit" },
+            //    {53, "Raj" }
+            //};
+            //Console.WriteLine("Number of students are:"+students.Count);
+            //Console.WriteLine("Roll \t Name");
+            //foreach(var k in students.Keys)
+            //{
+            //    Console.WriteLine(k+ "\t" + students[k]);
+            //}
+            //students.Add(32, "Deep");
+            //Console.WriteLine("Updated Students List");
+            //Console.WriteLine("Roll \t Name");
+            //foreach (var k in students.Keys)
+            //{
+            //    Console.WriteLine(k + "\t" + students[k]);
+            //}
+            //Console.ReadKey();
+
+            //sorted list
+            //Find & replace Ctrl+H
+            SortedList<int, string> students = new SortedList<int, string>()
             {
                 {15, "Sam" },
                 {12, "Amit" },
                 {53, "Raj" }
             };
-            Console.WriteLine("Number of students are:"+students.Count);
+            Console.WriteLine("Number of students are:" + students.Count);
             Console.WriteLine("Roll \t Name");
-            foreach(var k in students.Keys)
+            foreach (var k in students.Keys)
             {
-                Console.WriteLine(k+ "\t" + students[k]);
+                Console.WriteLine(k + "\t" + students[k]);
             }
             students.Add(32, "Deep");
             Console.WriteLine("Updated Students List");
