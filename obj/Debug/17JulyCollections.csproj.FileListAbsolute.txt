@@ -1,0 +1,8 @@
+D:\17JulyCollections\17JulyCollections\bin\Debug\17JulyCollections.exe.config
+D:\17JulyCollections\17JulyCollections\bin\Debug\17JulyCollections.exe
+D:\17JulyCollections\17JulyCollections\bin\Debug\17JulyCollections.pdb
+D:\17JulyCollections\17JulyCollections\obj\Debug\17JulyCollections.csproj.AssemblyReference.cache
+D:\17JulyCollections\17JulyCollections\obj\Debug\17JulyCollections.csproj.SuggestedBindingRedirects.cache
+D:\17JulyCollections\17JulyCollections\obj\Debug\17JulyCollections.csproj.CoreCompileInputs.cache
+D:\17JulyCollections\17JulyCollections\obj\Debug\17JulyCollections.exe
+D:\17JulyCollections\17JulyCollections\obj\Debug\17JulyCollections.pdb
